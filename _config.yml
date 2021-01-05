@@ -1,0 +1,103 @@
+repository: vinayak19th/vinayak19th.github.io/
+favicon: images/fav.ico``
+
+# Personal info
+name: Vinayak Sharma
+title: Final Year, Computer Science & Engineering
+email: vinayak1998th@Gmail.com
+phone: "+91 9748939032"
+website: vinayaksharma.tech
+
+darkmode: false
+
+# Social links
+#twitter_username: jekyllrb
+github_username:  vinayak19th
+stackoverflow_username: 8700517/vinayak-sharma
+#facebook_username: vinayak19th
+instagram_username: stochastic_individual
+linkedin_username: vinayaksha
+#use international format
+whatsapp_number: "919994756433"
+medium: vinayak1998th
+
+# Additional icon links
+#additional_links:
+#- title: Link name
+#  icon: Font Awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#  url: Link url (eg. https://google.com)
+# - title: another link
+#   icon: font awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/picture.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Student Researcher with a passion for the fields of <mark>Deep Learning</mark> & <mark>Quantum Computing</mark>.
+  I've worked extensively on Deep Learning solutions to problems on Vision, Natural Language and Audio.
+  Some of the challenges I've tackled :
+  - Real-Time automated monitoring of social distancing based on single camera feed
+  - Deep learning based Medical Imageing of intracranial hemorrhaging
+  - Supervised Quantum space information encoding for efficient data conversion to Quantum Computers (currently working on the math)
+  - Handwritting recognition and ASR for very low resource languages (Bengali: Handwritting and Pashto: ASR)
+
+  <mark>I look forward to exploring more and learning while working on the bleeding edge</mark>
+# Projects Section
+# projects_title: Projects #(Use this to override about projects section title)
+
+# Experience Section
+# experience_title: Experience #(Use this to override about experience section title)
+
+# Education Section
+# education_title: Education #(Use this to override about education section title)
+
+# More Section
+# more_title: A Little More About Me #(Use this to override about more section title)
+more_content: | # this will include new lines to allow paragraphs
+  
+# Footer
+footer_show_references: true
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+remote_theme : sproogen/modern-resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+  load_paths:
+        - _sass
+        - node_modules
+
+
+plugins:
+  - jekyll-seo-tag
+
+color:
+  primary: 18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+markdown: kramdown
+permalink: pretty
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
